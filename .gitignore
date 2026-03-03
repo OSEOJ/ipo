@@ -1,0 +1,55 @@
+# 환경변수
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 가상환경
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 크롤링 캐시
+data/cache/
+
+# 실행 결과물
+output/
+
+# 로그
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI 도구
+.claude/
+.gemini/

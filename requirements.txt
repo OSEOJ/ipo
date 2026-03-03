@@ -1,0 +1,57 @@
+# ==============================================================================
+# [System Dependencies for Linux/Docker]
+# 
+# To fix Matplotlib Korean font rendering issues (e.g., repeating square boxes), 
+# please run the following commands in your Linux/Docker terminal BEFORE running 
+# the python scripts:
+# 
+# apt-get update && apt-get install -y fonts-nanum
+# rm -rf ~/.cache/matplotlib
+# ==============================================================================
+
+# Web Crawling
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+lxml>=5.1.0
+
+# DART API
+dart-fss>=0.4.5
+OpenDartReader>=0.2.1
+
+# Data Processing
+pandas>=2.1.4
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Utilities
+tqdm>=4.66.1
+python-dotenv>=1.0.0
+joblib>=1.3.0
+
+# Machine Learning & Deep Learning
+torch>=2.4.0
+torchvision>=0.19.0
+scikit-learn>=1.3.0
+transformers>=4.38.0
+xgboost>=2.0.0
+catboost>=1.2.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+koreanize-matplotlib>=0.1.1
+
+# Explainability
+shap>=0.44.0
+
+# Market Data
+yfinance>=0.2.36
+finance-datareader>=0.9.50
+pykrx>=1.0.4
+
+# PDF Processing
+PyMuPDF>=1.23.0
+pypdf>=4.0.0
+
+# Hyperparameter Optimization
+optuna>=3.5.0
