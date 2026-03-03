@@ -8,8 +8,6 @@
 
 </div>
 
----
-
 ## Overview
 
 국내 IPO 시장에서 상장 초기 과열 이후 발생하는 단기 가격 조정 위험을 규명하고, 가격 발견 완료 시점 이후 시장 대비 성과 방향을 예측하기 위해 Cross-Attention 기반 병렬 Multi-Task Learning 모형을 제안한다.
