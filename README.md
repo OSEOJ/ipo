@@ -2,9 +2,9 @@
 
 # IPO Adjustment Risk Prediction
 
-**조영서 · 이경민**
-
 **Cross-Attention 기반 병렬 Multi-Task Learning을 활용한<br>IPO 상장 초기 가격 발견 완료 시점(T=22) 이후 시장 대비 성과 방향 예측**
+
+**조영서 · 이경민**
 
 DB Insurance & Finance Contest
 
